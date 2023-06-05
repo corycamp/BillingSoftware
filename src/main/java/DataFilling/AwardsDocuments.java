@@ -74,8 +74,7 @@ public class AwardsDocuments {
 
 	public void login(WebDriver driver) {
 
-		String userName = "cory5952097";
-		String passWrd = "benten2014";
+		
 
 		WebElement loginName = driver.findElement(By.cssSelector("input[id*='username']"));
 		loginName.clear();

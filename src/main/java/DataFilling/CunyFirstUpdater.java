@@ -30,8 +30,7 @@ public class CunyFirstUpdater{
 	
 	public void login(WebDriver driver) {
 		
-		String userName="Evelyn.Guzman71@login.cuny.edu";
-		String passWrd="Coffee19";
+	
 		
 		WebElement loginName = driver.findElement(By.cssSelector("input[id*='CUNYfirstUsernameH']"));
 		loginName.clear();
