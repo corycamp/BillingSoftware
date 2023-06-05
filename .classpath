@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar" sourcepath="C:/Users/campb/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.poi"/>
+			<attribute name="maven.artifactId" value="poi"/>
+			<attribute name="maven.version" value="4.1.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar" sourcepath="C:/Users/campb/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.poi"/>
+			<attribute name="maven.artifactId" value="poi-ooxml"/>
+			<attribute name="maven.version" value="4.1.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1.jar" sourcepath="C:/Users/campb/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-chrome-driver"/>
+			<attribute name="maven.version" value="4.9.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1.jar" sourcepath="C:/Users/campb/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-edge-driver"/>
+			<attribute name="maven.version" value="4.9.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/com/aspose/aspose-html/20.9.1/aspose-html-20.9.1-jdk16.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.aspose"/>
+			<attribute name="maven.artifactId" value="aspose-html"/>
+			<attribute name="maven.version" value="20.9.1"/>
+			<attribute name="maven.classifier" value="jdk16"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar" sourcepath="C:/Users/campb/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="net.bytebuddy"/>
+			<attribute name="maven.artifactId" value="byte-buddy"/>
+			<attribute name="maven.version" value="1.14.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/org/apache/pdfbox/pdfbox/3.0.0-alpha3/pdfbox-3.0.0-alpha3.jar" sourcepath="C:/Users/campb/.m2/repository/org/apache/pdfbox/pdfbox/3.0.0-alpha3/pdfbox-3.0.0-alpha3-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.pdfbox"/>
+			<attribute name="maven.artifactId" value="pdfbox"/>
+			<attribute name="maven.version" value="3.0.0-alpha3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/campb/.m2/repository/fr/opensagres/xdocreport/fr.opensagres.poi.xwpf.converter.pdf/2.0.2/fr.opensagres.poi.xwpf.converter.pdf-2.0.2.jar" sourcepath="C:/Users/campb/.m2/repository/fr/opensagres/xdocreport/fr.opensagres.poi.xwpf.converter.pdf/2.0.2/fr.opensagres.poi.xwpf.converter.pdf-2.0.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="fr.opensagres.xdocreport"/>
+			<attribute name="maven.artifactId" value="fr.opensagres.poi.xwpf.converter.pdf"/>
+			<attribute name="maven.version" value="2.0.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
